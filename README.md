@@ -45,3 +45,37 @@ In the field of artificial intelligence (AI), raw data often requires significan
 The overarching objective of this project is to develop a robust pipeline for data preprocessing that ensures the data is cleaned, transformed, and prepared in a way that maximizes the performance and accuracy of AI algorithms. The project will focus on automation and scalability to handle large datasets, making it applicable to various AI model development scenarios, including predictive analytics, computer vision, and natural language processing.
 
 By the end of this project, the output will be a well-prepared dataset ready for AI model training, ensuring that subsequent analyses are efficient, accurate, and meaningful.
+
+# Output of the project
+
+   Pregnancies  Glucose  BloodPressure  SkinThickness  Insulin   BMI  \
+0            6      148             72             35        0  33.6   
+1            1       85             66             29        0  26.6   
+2            8      183             64              0        0  23.3   
+3            1       89             66             23       94  28.1   
+4            0      137             40             35      168  43.1   
+
+   DiabetesPedigreeFunction  Age  Outcome  
+0                     0.627   50        1  
+1                     0.351   31        0  
+2                     0.672   32        1  
+3                     0.167   21        0  
+4                     2.288   33        1  
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 768 entries, 0 to 767
+Data columns (total 9 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Pregnancies               768 non-null    int64  
+ 1   Glucose                   768 non-null    int64  
+ 2   BloodPressure             768 non-null    int64  
+ 3   SkinThickness             768 non-null    int64  
+ 4   Insulin                   768 non-null    int64  
+ 5   BMI                       768 non-null    float64
+ 6   DiabetesPedigreeFunction  768 non-null    float64
+ 7   Age                       768 non-null    int64  
+ 8   Outcome                   768 non-null    int64  
+dtypes: float64(2), int64(7)
+memory usage: 54.1 KB
+
+
