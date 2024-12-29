@@ -10,4 +10,4 @@
 
 **Duration:-** December 2024 to January 2025
 
-##Overview of the Projec
+## Overview of the Project
